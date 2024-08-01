@@ -24,7 +24,7 @@ F10.7 measures solar activity by reflecting extreme ultraviolet radiation from t
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/f107_forecasting.git
+    gh repo clone SuryaMuruganMS/F10.7-Solar-Radio-Flux-Forecasting-using-Bidirectional-LSTM
     ```
 2. Install jupiter:
     ```sh
