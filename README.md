@@ -42,31 +42,11 @@ F10.7 measures solar activity by reflecting extreme ultraviolet radiation from t
     ```sh
     git clone https://github.com/yourusername/f107_forecasting.git
     ```
-2. Navigate to the project directory:
+2. Install jupiter:
     ```sh
-    cd f107_forecasting
+    pip install jupyter
     ```
-3. Install the required packages:
+3. Run the notebook:
     ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. Preprocess the data:
-    ```sh
-    python src/data_preprocessing.py
-    ```
-2. Train the BILSTM model:
-    ```sh
-    python src/model_training.py
-    ```
-3. Evaluate the model:
-    ```sh
-    python src/model_evaluation.py
-    ```
-
-4. Alternatively, you can run the Jupyter notebook for an interactive workflow:
-    ```sh
-    jupyter notebook notebooks/surya_notebook.ipynb
+    jupyter nbconvert --to notebook --execute surya_notebook.ipynb
     ```
