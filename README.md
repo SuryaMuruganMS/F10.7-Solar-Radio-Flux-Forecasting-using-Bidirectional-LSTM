@@ -12,22 +12,6 @@ The BILSTM model processes historical F10.7 data to predict future flux values. 
 
 F10.7 measures solar activity by reflecting extreme ultraviolet radiation from the Sun, crucial for predicting space weather events and understanding their impacts on communication and navigation systems. Accurate measurements are vital for reliable space weather forecasts, essential for satellite operations and power distribution.
 
-## Repository Structure
-
-```plaintext
-/
-├── data/
-│   └── f10.7_data.csv          # Historical F10.7 solar radio flux data
-├── notebooks/
-│   └── surya_notebook.ipynb    # Jupyter notebook for data preprocessing and modeling
-├── src/
-│   ├── data_preprocessing.py   # Script for data cleaning and normalization
-│   ├── model_training.py       # Script for training the BILSTM model
-│   └── model_evaluation.py     # Script for evaluating model performance
-├── README.md                   # Project overview and instructions
-└── requirements.txt            # Required packages and dependencies
-```
-
 ## Getting Started
 
 ### Prerequisites
