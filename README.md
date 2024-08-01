@@ -26,3 +26,47 @@ F10.7 measures solar activity by reflecting extreme ultraviolet radiation from t
 │   └── model_evaluation.py     # Script for evaluating model performance
 ├── README.md                   # Project overview and instructions
 └── requirements.txt            # Required packages and dependencies
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Jupyter Notebook
+- Libraries: numpy, pandas, matplotlib, seaborn, tensorflow, sklearn
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/f107_forecasting.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd f107_forecasting
+    ```
+3. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Preprocess the data:
+    ```sh
+    python src/data_preprocessing.py
+    ```
+2. Train the BILSTM model:
+    ```sh
+    python src/model_training.py
+    ```
+3. Evaluate the model:
+    ```sh
+    python src/model_evaluation.py
+    ```
+
+4. Alternatively, you can run the Jupyter notebook for an interactive workflow:
+    ```sh
+    jupyter notebook notebooks/surya_notebook.ipynb
+    ```
